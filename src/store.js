@@ -8,7 +8,8 @@ const persistConfig = {
     key: 'root',
     storage: AsyncStorage,
     whitelist:[
-        'todos'
+        'todos',
+        'current_id'
     ],
     blacklist: []
 };
